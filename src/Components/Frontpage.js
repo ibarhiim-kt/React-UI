@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Frontpage(){
     return(
-        <div className="">
+        <div className="container">
         {/* <div className="container"> */}
             <div className="frontPage">
                 <div className="frontPage-parts" id="frontPage-part1">

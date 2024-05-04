@@ -3,7 +3,7 @@ export default function header(){
 return(
   
 
-        <div className="" >
+        <div className="container" >
         <div className="header ">
             <div className="header1">
                 <img src="./images/leftmenu.png" alt="Logo" />
