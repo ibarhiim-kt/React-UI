@@ -1,10 +1,10 @@
 import React from "react";
 export default function header(){
 return(
-    <div className="container">
+  
 
-        <div className="headerContainer" >
-        <div className="header">
+        <div className="" >
+        <div className="header ">
             <div className="header1">
                 <img src="./images/leftmenu.png" alt="Logo" />
             </div>
@@ -36,8 +36,6 @@ return(
             </div>
             
         </div>
-        </div> 
-
-    </div>    
+        </div>   
 )
 }

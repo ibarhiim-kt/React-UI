@@ -8,11 +8,13 @@ import Thirdpage from './Components/Thirdpage';
 function App() {
   return (
     <div>
+      <div className="background">
       <Header />
       <Frontpage />
-      <Secondpage/>
+      </div>
+      {/* <Secondpage/>
       <Thirdpage/>
-      <Fourthpage/>
+      <Fourthpage/> */}
     </div>
   );
 }

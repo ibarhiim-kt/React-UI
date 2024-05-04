@@ -29,32 +29,31 @@
   box-sizing: border-box;  
   font-family: 'Poppins Regular';
 }
-
+.background{
+  background-image: url("https://images-ext-1.discordapp.net/external/1r97tBUM-Ua14hhYlmIoTinwA_R95A12H0FxVOBHQ_c/https/growthware-ten.vercel.app/static/media/HeroBg.41e6f7252cc969083e45.webp?format=webp&width=1113&height=663");
+  height: 768px;
+  background-position: center;
+  background-size: cover;
+}
 .container{
   max-width: 1440px;
   margin: auto;
   overflow: hidden;
-  /* height: 1250px; */
-}
-.headerContainer{
-  height: 92px;
-  /* max-width: 1440px;  */
-  /* overflow: hidden; */
-  display: flex;  
-  justify-content: center;
-  align-items: flex-end;
   
 }
 #navHeader{
   display: none;
 }
 .header{
-  width: 1184px;
   /* background-color: red; */
+  margin: auto;
+  max-width: 1184px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-height: 44px;  
+  
+  padding: 48px 0px 0px 0px;
+  /* max-height: 92px; */
 }
 .header1{
   max-width: 199.04px;
@@ -75,6 +74,7 @@
   /* background-color: yellow;  */
   font-weight: 400; 
   line-height: 14px;
+  
 }
 
 .header2-parts select{
@@ -90,6 +90,7 @@
   gap: 24px;
   max-width: 214px;
   max-height: 44px;
+  
 }
 #header3-part1{
   max-width: 42px;
@@ -117,37 +118,30 @@
 
 /* ---------------frontpage----------------------- */
 
-.containerBackground{
-  
-  background-image: url("https://images-ext-1.discordapp.net/external/1r97tBUM-Ua14hhYlmIoTinwA_R95A12H0FxVOBHQ_c/https/growthware-ten.vercel.app/static/media/HeroBg.41e6f7252cc969083e45.webp?format=webp&width=1113&height=663");
-  height: 768px;
-  background-position: center;
-  background-size: cover;
-  
-}
+
 .frontPage{
+  background-color: yellow;
   max-width: 1440px;
-  max-height: 1250px;
-  padding: 0px 0px 0px 128px;
-  gap: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  max-height: 768px;
+  /* padding: 0px 0px 0px 128px; */
+  /* gap: 48px; */
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: auto;
+
     
 }
 #frontPage-part1{
-  
-  /* max-width: 544px; */
-  /* background-color: red; */
-  /* display: flex; */
-  /* max-height: 540px; */
-  /* gap: 48px; */
+  max-width: 544px;
+  max-height: 540px;
+  gap: 48px;
+  background-color: red;
+  /* padding: 114px 48px 114px 128px; */
+  margin: 114px 48px 114px 128px;
 }
-#frontPage-part1-text{
-  /* max-width: 544px; */
-  /* max-height: 432px; */
-  /* gap: 24px; */
-}
+
 #frontPage-part1-text-heading{
   max-width: 544px;
   /* height: 240px; */
@@ -167,7 +161,7 @@
 }
 #frontPage-part1-text-para p{
  font-size: 24px;
- line-height: 41px;
+ line-height: 42px;
  font-style: italic;
  font-weight: 300;
  color: #754BC9;
@@ -187,30 +181,24 @@ font-weight: 600;
 margin-top: 35px;
 }
 #frontPage-part2{
-  /* background-color: green; */
+ 
   max-width: 720px;
   height: 768px;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  background-color: orange;
   
 }
   #frontPage-part2 img{
   max-width: 672px;
   height: 476.55px;
   mix-blend-mode: multiply;
+  margin-top: 146px;
+  /* margin-right: 48px; */
+  /* background-color: orange; */
 }
 /* ---------------secondpage---------- */
-/* .containerOverlay{
-  position: relative;
-} */
-/* .overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width:1440px ;
-  height: 741px;  
-  background-color: rgba(0, 0, 0, 0.3);
-} */
+
 .containerBackground2{
   background-image: url(https://s3-alpha-sig.figma.com/img/b21b/5ec0/4ce70ae09a940396858d97a691664b6e?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OmvKLVvz0nuoEWTcBy9Ps~juKYSGnEKNHWTJiVQQztp7iZpVjPmnvhISMr1k1u9zg~TgRHIAcdacRxgCPRnz5Mwjrmt~LUmdIj6WKgWOv9YWhA-zltc1-IWkuZR~hDYbZT0smmnCb3oT~VCLI95-RKJLkAGJrLsP65XD3tVqMVUSB4drcNHsLfwywgWFfL7jraKMQOI7rEao4yFrwnISk8bwuuZvZeeN0Tc1ueMfeKj5X28vNwuRG6bxHmMrgkes-UAgAE9UF1OuQ3J6~qyFRkBfkbFIYR8qs7LjKitS~WM61nVxMgJkUE3Mq8lq~MuNAr~2Wv74Pufi5VQZlELJJA__);
   
@@ -457,7 +445,7 @@ margin-top: 35px;
 
 }
 
-@media(max-width:1324px){
+/* @media(max-width:1324px){
     .containerBackground{
       height: 1264px;
     }
@@ -486,9 +474,9 @@ margin-top: 35px;
   
   #secondPage-part2-para2-part2 p {
     max-width: 480px;
-    /* background-color: red; */
+    
   }
-}
+} */
   
 @media(max-width:1000px)
 {
