@@ -1,5 +1,6 @@
 
 
+import Fourthpage from './Components/Fourthpage';
 import Frontpage from './Components/Frontpage';
 import Header from './Components/Header';
 import Secondpage from './Components/Secondpage';
@@ -11,6 +12,7 @@ function App() {
       <Frontpage />
       <Secondpage/>
       <Thirdpage/>
+      <Fourthpage/>
     </div>
   );
 }

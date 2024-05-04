@@ -395,6 +395,68 @@ margin-top: 35px;
     font-family: "Poppins SemiBold";
 }
 
+.fourthPage{
+  max-width: 1440px;
+  height: 753px;
+  padding: 96px 128px 96px 128px;
+  gap: 48px;
+  background-color: #F3F4F7;
+  display: flex;
+  flex-direction: column;
+  
+}
+#fourthPage-part1 h6{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #754BC9;
+
+}
+#fourthPage-part1 h3{
+ font-size: 36px;
+ font-weight: 600;
+ line-height: 45px;
+ text-align: center;
+  
+} 
+#fourthPage-part2{
+  max-width: 972px;
+  height: 432px;
+  margin-left: 100px;
+  padding: 96px 128px 96px 128px;
+  /* justify-content: center; */
+  gap: 48px;
+  
+  display: flex;
+  flex-direction: column;  
+  /* align-items: center; */
+  /* text-align: center; */
+    
+}
+#fourthPage-part2-row1{
+  max-width: 720px;
+  height: 144px;  
+  display: flex;  
+  gap: 48px;
+}
+#fourthPage-part2-row2{
+  max-width: 720px;
+  height: 144px;
+  gap: 48px;
+  display: flex;
+}
+.fourthPage-rows{
+  width: 144px;
+  height: 144px;
+  border-radius: 24px;
+  padding: 0px 12px 0px 12px;
+  gap: 12px;
+  /* background-color: blue; */
+  box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.09), 0px 6px 6px 0px rgba(0, 0, 0, 0.03);
+
+}
+
 @media(max-width:1324px){
     .containerBackground{
       height: 1264px;
@@ -427,6 +489,7 @@ margin-top: 35px;
     /* background-color: red; */
   }
 }
+  
 @media(max-width:1000px)
 {
   
