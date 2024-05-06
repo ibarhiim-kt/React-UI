@@ -12,9 +12,12 @@ function App() {
       <Header />
       <Frontpage />
       </div>
+      <div className="background2">
       <Secondpage/>
-      {/* 
       <Thirdpage/>
+      </div>
+      {/* 
+      
       <Fourthpage/> */}
     </div>
   );
