@@ -3,9 +3,9 @@ import React from "react";
 export default function Secondpage(){
 
     return(
-        <div className="containerBackground2">
-        <div className="container" id="containerOverlay">
-            {/* <div id="overlay"></div> */}
+        // <div className="containerBackground2">
+        // <div className="container" id="containerOverlay">
+            /* <div id="overlay"></div> */
             <div className="secondPage">
                 
                 <div id="secondPage-part1">
@@ -31,7 +31,7 @@ export default function Secondpage(){
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
+        // </div>
+        // </div>
     )
 }

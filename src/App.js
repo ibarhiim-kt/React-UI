@@ -12,7 +12,8 @@ function App() {
       <Header />
       <Frontpage />
       </div>
-      {/* <Secondpage/>
+      <Secondpage/>
+      {/* 
       <Thirdpage/>
       <Fourthpage/> */}
     </div>
