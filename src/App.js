@@ -1,5 +1,6 @@
 
 
+import Fifthpage from './Components/Fifthpage';
 import Fourthpage from './Components/Fourthpage';
 import Frontpage from './Components/Frontpage';
 import Header from './Components/Header';
@@ -13,12 +14,13 @@ function App() {
       <Frontpage />
       </div>
       <div className="background2">
-      <Secondpage/>
+      <Secondpage/>      
+      </div>     
       <Thirdpage/>
+      <div className="background3">      
+      <Fourthpage/> 
       </div>
-      {/* 
-      
-      <Fourthpage/> */}
+      <Fifthpage/>
     </div>
   );
 }
