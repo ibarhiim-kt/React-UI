@@ -1,6 +1,7 @@
 
 
 import Fifthpage from './Components/Fifthpage';
+import Footer from './Components/Footer';
 import Fourthpage from './Components/Fourthpage';
 import Frontpage from './Components/Frontpage';
 import Header from './Components/Header';
@@ -21,6 +22,9 @@ function App() {
       <Fourthpage/> 
       </div>
       <Fifthpage/>
+      <div className="background4">
+      <Footer/>
+      </div>
     </div>
   );
 }

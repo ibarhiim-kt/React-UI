@@ -19,8 +19,7 @@ export default function Frontpage(){
                     </div>
                     <div id="frontPage-part1-button">
                     <button>
-                        <div id="text">Apply Now</div>
-                        <div id="digram"><img id="rocket" src="./images/rocket.png" alt="ic" /></div>
+             <p id="text">Apply Now</p> <img id="rocket" src="./images/rocket.png" alt="ic" />
                         </button>                    
                     </div>
                 </div>

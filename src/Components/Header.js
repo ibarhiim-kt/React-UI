@@ -4,7 +4,7 @@ return(
   
 
         <div className="container" >
-        <div className="header ">
+        <div className="header">
             <div className="header1">
                 <img src="./images/leftmenu.png" alt="Logo" />
             </div>
