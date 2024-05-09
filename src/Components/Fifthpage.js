@@ -42,7 +42,7 @@ export default function Fifthpage(){
                     <p>Responsible for designing, developing, and deploying software applications across the full stack of web technologies..</p>
                 </div>
                 <div id="fifthPage-part2-button">
-                <button><p id="buttonPara">Learn More </p><img src="./images/arrow.png" alt="" />
+                <button><p id="buttonPara" className="cursor">Learn More </p><img src="./images/arrow.png" alt="" />
                 </button>
                     
                 </div>
@@ -60,7 +60,7 @@ export default function Fifthpage(){
                     <p>Responsible for developing marketing plans and strategies for specific products or product lines, including conducting..</p>
                 </div>
                 <div id="fifthPage-part2-button">
-                    <button><p id="buttonPara">Learn More </p><img src="./images/arrow.png" alt="" /></button>
+                    <button><p id="buttonPara" className="cursor">Learn More </p><img src="./images/arrow.png" alt="" /></button>
                     
                 </div>
             </div>

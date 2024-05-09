@@ -19,7 +19,7 @@ export default function Frontpage(){
                     </div>
                     <div id="frontPage-part1-button">
                     <button>
-             <p id="text">Apply Now</p> <img id="rocket" src="./images/rocket.png" alt="ic" />
+             <p id="text" className="cursor">Apply Now</p> <img id="rocket" src="./images/rocket.png" alt="ic" />
                         </button>                    
                     </div>
                 </div>
