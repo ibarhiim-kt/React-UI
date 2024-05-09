@@ -5,12 +5,23 @@ export default function Fifthpage(){
         <div className="fifthPage">
             <div id="fifthPage-part1">
                 <div id="fifthPage-part1-options">
-                <select id="department">
-                     <option value="department">Department</option>                     
-                </select>
+                <div className="custom">
+                <select id="department" >
+                <option value="department">Department</option>
+                
+                </select> 
+                <div id="customImage">
+                <img src="./images/dd.svg" alt="dd"/>   
+                </div>               
+                </div>
+                <div className="custom2">
                 <select id="position">
                      <option value="position">Position</option>                     
                 </select>
+                <div id="customImage">
+                <img src="./images/dd.svg" alt="dd"/>   
+                </div>
+                </div>
                 </div>
                 <div id="search">
                 <img src="./images/search.png" alt="" />

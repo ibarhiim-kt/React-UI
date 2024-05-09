@@ -11,37 +11,36 @@ export default function Fourthpage(){
                     <div id="fourthPage-part2">
                          <div id="fourthPage-part2-row1">
                             <div className="fourthPage-rows">
-                                <img src="./images/laptop.png" alt="" />
+                                <img src="./images/laptop2.svg" alt="" />
                                 <p>16'' Macbook Pro</p>
                             </div>
                             <div className="fourthPage-rows">
-                                <img src="./images/globe.png" alt="" />
+                                <img src="./images/globe2.svg" alt="" />
                                 <p>Remote HQ</p>
                             </div>
                             <div className="fourthPage-rows">
-                                <img src="./images/medical.png" alt="" />
+                                <img src="./images/medical2.svg" alt="" />
                                 <p>Health Insurance</p>
                             </div>
                             <div className="fourthPage-rows">
-                                <img src="./images/coins.png" alt="" />
+                                <img src="./images/coins2.svg" alt="" />
                                 <p>401k Match</p>
-                            </div>
-                        
+                            </div>                        
                         
                             <div className="fourthPage-rows">
-                                <img src="./images/dumbbell.png" alt="" />
+                                <img src="./images/dumbbell2.svg" alt="" />
                                 <p>Classpass Membership</p>
                             </div>
                             <div className="fourthPage-rows">
-                                <img src="./images/luggage.png" alt="" />
+                                <img src="./images/luggage2.svg" alt="" />
                                 <p>Flexible PTO</p>
                             </div>
                             <div className="fourthPage-rows">
-                                <img src="./images/tshirt.png" alt="" />
+                                <img src="./images/tshirt2.svg" alt="" />
                                 <p>Growthware swag</p>
                             </div>
                             <div className="fourthPage-rows">
-                                <img src="./images/piggy.png" alt="" />
+                                <img src="./images/piggy2.svg" alt="" />
                                 <p>Stock Options</p>
                             </div>
                         </div>

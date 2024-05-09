@@ -7,6 +7,7 @@ import Frontpage from './Components/Frontpage';
 import Header from './Components/Header';
 import Secondpage from './Components/Secondpage';
 import Thirdpage from './Components/Thirdpage';
+
 function App() {
   return (
     <div>
@@ -16,7 +17,7 @@ function App() {
       </div>
       <div className="background2">
       <Secondpage/>      
-      </div>     
+      </div>
       <Thirdpage/>
       <div className="background3">      
       <Fourthpage/> 

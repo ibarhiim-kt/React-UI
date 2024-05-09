@@ -24,7 +24,7 @@ export default function Frontpage(){
                     </div>
                 </div>
                 <div className="frontPage-parts" id="frontPage-part2">
-                    <img src="./images/art.png" alt="nothing" />
+                    <img src="./images/art2.svg" alt="nothing" />
                 </div>
             </div>
         </div>

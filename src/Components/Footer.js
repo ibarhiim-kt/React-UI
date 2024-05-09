@@ -4,7 +4,7 @@ export default function Footer(){
 
     return(
         <div className="footer">
-            
+            <img src="./images/footerG.png" alt="img" id="extraG" />
             <div className="footerPart1">
             <div id="footerPart1-col1" className="footerPart1-parts he">
                 <img src="./images/footerG.png" alt="img" />
