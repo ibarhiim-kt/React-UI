@@ -1195,6 +1195,19 @@ margin-top: 35px;
 #secondPage-part1-heading h3 {
   font-size: 34px;
 }
+.secondPage-part2-paras {
+  
+  padding: 7px;
+}
+#secondPage-part2-para1 p{
+  font-size: 13px;
+}
+#secondPage-part2-para2-part1 p {
+  font-size: 13px;
+}
+#secondPage-part2-para2-part2 p {
+  font-size: 13px;
+}
   .thirdPage{
     /* max-width: 370px; */
   }
