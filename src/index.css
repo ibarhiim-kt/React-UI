@@ -564,15 +564,17 @@ margin-top: 35px;
   border: 1px solid rgba(212, 213, 217, 1);
 }
 #search{
-  max-width: 260px;
+  /* max-width: 260px;
   height: 44px;
   border-radius: 48px;
   border: 1px;
-  padding: 9px 16px 8px 16px;
+ 
   gap: 12px;
   line-height: 28px;
   border: 1px solid rgba(212, 213, 217, 1);
-  display: flex;
+  display: flex;*/
+ /* background-color: blue; */
+  position: relative;
 }
 #search input{
   border: none;
@@ -580,11 +582,22 @@ margin-top: 35px;
 #search input:focus{
   outline: none;
 }
- input[type="text"]{
+#search img{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+#search input{
+  /* position: absolute; */
+  border: 1px;
+  max-width: 260px;
+  border-radius: 48px;
+  padding: 8px 16px 8px 45px;
   /* padding: 10px; */
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;  
+  border: 1px solid rgba(212, 213, 217, 1);
   /* background-color: red; */
   /* height: 28px; */
 }
@@ -594,6 +607,9 @@ margin-top: 35px;
 }
 
 #fifthPage-part2{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
   max-width: 978px;
   height: 130px;
   margin: auto;
@@ -636,11 +652,7 @@ margin-top: 35px;
   color: rgba(34, 37, 43, 1);
 }
 
-#fifthPage-part2-button{
-  /* display: flex; */
-  /* align-items: center;s */
-  /* justify-content: center; */
-}
+
 #fifthPage-part2-button button{
   font-weight: 600;
   font-size: 16px;
@@ -1322,7 +1334,7 @@ height: 1650px;
   height: 41px;
 }
 .footerPart1-parts a {
-  font-size: 7px;
+  font-size: 10px;
 }
 }
 @media(max-width:320px){

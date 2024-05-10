@@ -24,7 +24,9 @@ export default function Fifthpage(){
                 </div>
                 </div>
                 <div id="search">
+                    <div className="custom3">
                 <img src="./images/search.svg" alt="" />
+                </div>
                     <input type="text" placeholder="Search" />
                 </div>
             </div>
