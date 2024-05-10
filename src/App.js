@@ -10,7 +10,7 @@ import Thirdpage from './Components/Thirdpage';
 
 function App() {
   return (
-    <div>
+    <div className='abu'>
       <div className="background">
       <Header />
       <Frontpage />

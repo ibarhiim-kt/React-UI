@@ -28,18 +28,23 @@
   margin: 0;
   box-sizing: border-box;  
   font-family: 'Poppins Regular';
+  /* overflow-x: hidden; */
+}
+.abu{
+  overflow: hidden;
 }
 .background{
   background-image: url("https://images-ext-1.discordapp.net/external/1r97tBUM-Ua14hhYlmIoTinwA_R95A12H0FxVOBHQ_c/https/growthware-ten.vercel.app/static/media/HeroBg.41e6f7252cc969083e45.webp?format=webp&width=1113&height=663");
   height: 860px;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
+  /* width: 500hv; */
   /* margin: auto; */
 }
 .container{
-  max-width: 1440px;
-  margin: auto;
-  overflow: hidden;
+  /* max-width: 1440px; */
+  /* margin: auto; */
+  /* overflow: hidden; */
   
 }
 #navHeader{
@@ -51,8 +56,7 @@
   max-width: 1184px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  
+  justify-content: space-between;  
   padding: 48px 0px 0px 0px;
   /* max-height: 92px; */
 }
@@ -73,9 +77,7 @@
   justify-content: space-between;
   font-size: 16px;  
   font-weight: 400; 
-  line-height: 14px;
-  
-  
+  line-height: 14px;  
 }
 .cursor{
   cursor: pointer;
@@ -1148,7 +1150,7 @@ margin-top: 35px;
 @media(max-width:470px)
 {
   .background{
-    height: 820px;
+    height: 775px;
   }
   .header{
     max-width: 370px;
@@ -1270,6 +1272,154 @@ height: 1650px;
   height: 41px;
 }
 .footerPart1-parts a {
+  font-size: 7px;
+}
+}
+@media(max-width:320px){
+  .header {
+    padding: 35px 10px 0px 0px;
+    max-width: 270px;
+}
+  
+  #navHeader img {
+    height: 27px;
+    width: 29px;
+}
+  .background{
+    height: 705px;
+  }
+  .frontPage {
+    max-width: 270px;
+    padding: 43px 0px 0px 0px;
+}
+#frontPage-part1 {
+   padding: 0px 0px 0px 0px;
+}
+  #frontPage-part1-text-heading h1 {
+    font-size: 33px;
+    line-height: 45px;
+}
+  #frontPage-part1-text-para p {
+    font-size: 11px;
+    line-height: 26px;
+}
+#rocket {
+  height: 12px;
+  width: 12px;
+}
+#frontPage-part1-button button {
+  max-width: 96px;
+  padding: 9px 10px 9px 10px;
+  font-size: 9px;
+}
+  #frontPage-part2 img{
+    margin-left: 0;
+  }
+  #frontPage-part2{
+    height: 270px;
+  }
+  .secondPage{
+    max-width: 270px;
+    height: 850px;
+    padding: 59px 0px 90px 0px;
+  }
+  #secondPage-part1-heading h3 {
+    font-size: 28px;
+}
+
+#secondPage-part1-text p {
+  font-size: 16px;
+  line-height: 32px;
+}
+#secondPage-part2-para1 P {
+  font-size: 10px;
+  line-height: 26px;  
+  margin-top: -20px;
+}
+#secondPage-part2-para2-part1 p {
+  font-size: 10px;
+  line-height: 26px;
+  margin-top: -25px;
+}
+#secondPage-part2-para2-part2 p {
+  font-size: 10px;
+  line-height: 26px;
+  margin-top: -15px;
+}
+#thirdPage-part1-innerPart{
+  /* max-width: 200px; */
+  padding-left: 26px;
+}
+#thirdPage-part2-innerPart{
+  margin-left: 30px;
+}
+#thirdPage-part2-innerPart-content h1 {
+  font-size: 15px;
+}
+#thirdPage-part2-innerPart-content p {
+  font-size: 11px;
+}
+#thirdPage-part2-innerPart-content h1 {
+  margin-bottom: 6px;
+}
+#thirdPage-part2-innerPart img {
+  margin-bottom: 18px;
+}
+.fourthPage{
+  max-width: 270px;
+  /* height: 500px; */
+}
+.background3{
+  height: 1500px;
+}
+#fourthPage-part1 h3 {
+  font-size: 22px;
+}
+.fourthPage-rows{
+  font-size: 14px;
+}
+.fourthPage-rows {
+  width: 125px;
+  height: 125px;
+}
+.fifthPage{
+  max-width: 270px;
+}
+#fifthPage-part2-heading h4 {
+  font-size: 15px;
+}
+#fifthPage-paras {
+  max-width: 204px;
+}
+#fifthPage-paras p {
+  font-size: 12px;
+}
+#fifthPage-part2-para p {
+  font-size: 11px;
+  margin-bottom: -10px;
+}
+#fifthPage-part2-para p {
+  margin-top: 6px;
+}
+#fifthPage-part2-button button {
+  font-size: 12px;
+}
+#fifthPage-paras {
+  max-width: 204px;
+}
+#fifthPage-paras2 p {
+  font-size: 12px;
+}
+.footer{
+  max-width: 270px;
+}
+#extraG {
+  margin-left: 113px;
+}
+.footerPart1{
+  margin-left: 0;
+}
+#footerPart2-col2 a {
   font-size: 7px;
 }
 }
