@@ -335,7 +335,7 @@ margin-top: 35px;
   margin-right: 10px;
 }
 #thirdPage-part1-innerPart{
-  max-width: 544px;
+  width: 544px;
   height: 292px;
   /* background-color: red */
   /* top: 78px; */
@@ -879,26 +879,40 @@ margin-top: 35px;
   }
   #thirdPage-part1-innerPart{
     margin: 0;
-    padding-left: 90px;
+    /* padding-left: 90px; */
     max-width: none;
   }
   
   #thirdPage-part1{
-    max-width: none;
+    /* max-width: 800px; */
+    /* margin: auto; */
     height: 448px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
   }
+  #adjust{
+    height: 448px;
+    width: 800px;
+    margin: auto;
+  }
   .thirdpageMasla{
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   #thirdPage-part2{
     max-width: none;    
+    
   }
   #thirdPage-part2-innerPart {
-    padding-left: 47px;    
+    padding-left: 0px;    
     max-width: 800px;
+    margin-left: 0;
+    }
+    #adjust2{
+      /* background-color: yellowgreen; */
+      width: 800px;
+      margin: auto;
+      height: 448px;
     }
     #thirdPage-part2-innerPart-content {
       max-width: none;
@@ -967,14 +981,20 @@ margin-top: 35px;
         /* max-width: 650px; */
       }
       #thirdPage-part1-innerPart{
-        padding-left: 48px;
+        /* padding-left: 48px; */
+      }
+      #adjust{
+        max-width: 650px;
       }
       .thirdpageMasla{
-        margin-left: 69px;
+        /* margin-left: 69px; */
       }
       #thirdPage-part2-innerPart{
-        padding-left: 48px;
+        /* padding-left: 48px; */
         max-width: 700px;
+      }
+      #adjust2{
+      max-width: 650px;
       }
       #thirdPage-part2-innerPart-content {
         max-width: none;
@@ -1067,12 +1087,15 @@ margin-top: 35px;
 .thirdPage{
   /* max-width: 460px; */
 }
+#adjust{
+  max-width: 460px;
+}
 #thirdPage-part1-innerPart h6 {
   font-size: 14px;
 }
 #thirdPage-part1-innerPart {
-  font-size: 12px;
-  padding-left: 18px;
+  font-size: 15px;
+  /* padding-left: 18px; */
 }
 #thirdPage-part2-innerPart-content h1 {
   font-size: 22px;
@@ -1080,9 +1103,12 @@ margin-top: 35px;
 #thirdPage-part2-innerPart-content p {
   font-size: 12px;
 }
+#adjust2{
+  max-width:460px ;
+}
 #thirdPage-part2-innerPart {
   height: 345px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .fourthPage{
@@ -1154,6 +1180,7 @@ margin-top: 35px;
   }
   .header{
     max-width: 370px;
+    padding: 48px 10px 0px 10px;
   }
   .frontPage{
     max-width: 370px;
@@ -1179,6 +1206,7 @@ margin-top: 35px;
   #frontPage-part2 img{
     height: 250px;
     width: 300px;
+    margin-left: 0;
   }
   #rocket {
     height: 16px;
@@ -1188,6 +1216,9 @@ margin-top: 35px;
     max-width: 370px;
     padding: 76px 0px 90px 0px;
   }
+  #secondPage-part1-text{
+    padding: 10px;
+  }
   #secondPage-part1-text p {
     font-size: 21px;
     line-height: 44px;
@@ -1195,8 +1226,7 @@ margin-top: 35px;
 #secondPage-part1-heading h3 {
   font-size: 34px;
 }
-.secondPage-part2-paras {
-  
+.secondPage-part2-paras {  
   padding: 7px;
 }
 #secondPage-part2-para1 p{
@@ -1211,9 +1241,16 @@ margin-top: 35px;
   .thirdPage{
     /* max-width: 370px; */
   }
+  #adjust{
+    max-width: 370px;
+    padding: 10px;
+  }
+  #adjust2{
+    max-width: 370px;
+    padding: 10px;
+  }
   #thirdPage-part1-innerPart {
-
-    padding-left: 49px;
+    font-size: 12px;
 }
   .thirdpageMasla{
     margin-left: 0;
@@ -1361,13 +1398,22 @@ height: 1650px;
 }
 #thirdPage-part1-innerPart{
   /* max-width: 200px; */
-  padding-left: 26px;
+  /* padding-left: 26px; */
+  line-height: 20px;
 }
 #thirdPage-part2-innerPart{
-  margin-left: 30px;
+  /* margin-left: 30px; */
+
+}
+#adjust{
+  max-width: 270px;
+}
+#adjust2{
+  max-width: 270px;
 }
 #thirdPage-part2-innerPart-content h1 {
   font-size: 15px;
+  line-height: 20px;
 }
 #thirdPage-part2-innerPart-content p {
   font-size: 11px;

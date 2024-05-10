@@ -4,10 +4,10 @@ export default function Footer(){
 
     return(
         <div className="footer">
-            <img src="./images/footerG.png" alt="img" id="extraG" />
+            <img src="./images/footerG.svg" alt="img" id="extraG" />
             <div className="footerPart1">
             <div id="footerPart1-col1" className="footerPart1-parts he">
-                <img src="./images/footerG.png" alt="img" />
+                <img src="./images/footerG.svg" alt="img" />
             </div>
             <div id="footerPart1-col2" className="footerPart1-parts he">
                 <h6>Company</h6>
@@ -39,7 +39,7 @@ export default function Footer(){
             <hr id="footerLine"/>
             <div className="footerPart2" >
                 <div id="footerPart2-col1">
-                    <img src="./images/footerln.png" alt="linkedIn " />
+                    <img src="./images/footerln.svg" alt="linkedIn " />
                 </div>
                 <div id="footerPart2-col2">
                 <a href="#">Terms of use</a>
