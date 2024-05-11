@@ -4,8 +4,7 @@ export default function Secondpage(){
 
     return(
         
-            <div className="secondPage">
-                
+            <div className="secondPage">                
                 <div id="secondPage-part1">
                     <div id="secondPage-part1-heading">
                         <h3>Our Mission</h3>

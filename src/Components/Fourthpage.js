@@ -1,9 +1,7 @@
 import React from "react";
 export default function Fourthpage(){
     return(
-        // <div className="containerBackground4">
-            // < className="container">
-                <div className="fourthPage">
+                     <div className="fourthPage">
                     <div id="fourthPage-part1">
                         <h6>Perks</h6>
                         <h3>Working with us</h3>
@@ -47,6 +45,6 @@ export default function Fourthpage(){
                     </div>
                 
              </div>
-        // </div>
+        
     )
 }

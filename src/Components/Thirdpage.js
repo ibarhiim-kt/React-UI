@@ -2,9 +2,7 @@ import React from "react";
 
 export default function Thirdpage(){
     return(
-        // <div className="containerBackground3">
-        //     < className="container">
-                
+                   
                 <div className="thirdPage " >
                 
                  <div id="thirdPage-part1" > 
@@ -43,13 +41,11 @@ export default function Thirdpage(){
                             <div id="icontext">
                             <p>You have a burnning desire to help change the world.</p>
                             </div>
-                        </div>
-                        
-                        </div>
+                        </div>                        
                         </div>
                         </div>
-                    </div>
-                    
+                        </div>
+                    </div>                 
                     
                     <div id="thirdPage-part2">
                     <div id="adjust2">

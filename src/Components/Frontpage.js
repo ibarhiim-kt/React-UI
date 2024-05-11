@@ -3,8 +3,7 @@ import React from "react";
 export default function Frontpage(){
     return(
         <div className="container">
-        {/* <div className="container"> */}
-            <div className="frontPage">
+                <div className="frontPage">
                 <div className="frontPage-parts" id="frontPage-part1">
                     <div id="frontPage-part1-text">
                     <div id="frontPage-part1-text-heading">
@@ -28,6 +27,6 @@ export default function Frontpage(){
                 </div>
             </div>
         </div>
-        // </div>
+        
     )
 }

@@ -30,7 +30,7 @@ export default function Fifthpage(){
                     <input type="text" placeholder="Search" />
                 </div>
             </div>
-            {/* <hr className="hr"/> */}
+           
             <div id="fifthPage-part2">
                 <div id="fifthPage-part2-heading">
                     <h4>Full Stack Software Engineer</h4>
